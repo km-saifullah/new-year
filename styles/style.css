@@ -71,3 +71,51 @@ ol {
   margin-bottom: 48px;
 }
 /* ===== Off Section Style End ===== */
+
+/* ===== Time and Date Style Start ===== */
+.time_date {
+  margin-bottom: 120px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0)
+  );
+  padding: 100px;
+}
+.time_date_details {
+  text-align: center;
+}
+.time_date_details h5 {
+  color: #070211;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: capitalize;
+}
+.time_date_details span {
+  color: #ff0000;
+}
+.join_btn {
+  padding: 16px 32px;
+  color: #fff;
+  background-color: #ff0000;
+  outline: none;
+  border: none;
+  margin-top: 48px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  transition: all linear 0.3s;
+  border: 1px solid transparent;
+}
+.join_btn:hover {
+  background-color: #fff;
+  color: #ff0000;
+  border: 1px solid #ff0000;
+}
+/* ===== Time and Date Style End ===== */

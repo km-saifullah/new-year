@@ -15,6 +15,25 @@ ol {
   width: 1320px;
   margin: 0 auto;
 }
+.heading {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.sub_heading {
+  margin-top: 48px;
+  margin-bottom: 16px;
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: 500;
+}
+.paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6);
+}
+
 /* ==== Common Styles End ==== */
 
 /* ===== Banner Srtyle Start ===== */
@@ -56,19 +75,6 @@ ol {
   font-weight: 700;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-.off_text {
-  margin-top: 48px;
-  margin-bottom: 16px;
-  color: #ff0000;
-  font-size: 24px;
-  font-weight: 500;
-}
-.off_subTitle {
-  color: #070211;
-  font-size: 48px;
-  font-weight: 700;
-  margin-bottom: 48px;
 }
 /* ===== Off Section Style End ===== */
 
@@ -119,3 +125,48 @@ ol {
   border: 1px solid #ff0000;
 }
 /* ===== Time and Date Style End ===== */
+
+/* ====== Coming Section Style Start ====== */
+.coming_soon {
+  margin-bottom: 120px;
+}
+.coming_soon_contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.coming_info {
+  max-width: 393px;
+}
+.coming_subHeading {
+  color: #ff0000;
+}
+.coming_title {
+  margin-bottom: 22px;
+}
+.coming_img {
+  width: 463px;
+  height: 463px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 15px solid #ff0000;
+  padding: 30px;
+}
+.coming_img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.coming_details {
+  width: 276px;
+}
+.coming_details h4 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ff0000;
+}
+.coming_details p {
+  padding: 16px 0 43px 0;
+}
+
+/* ====== Coming Section Style End ====== */

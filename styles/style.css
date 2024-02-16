@@ -1,0 +1,73 @@
+/* ==== Common Styles Start ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+/* ==== Common Styles End ==== */
+
+/* ===== Banner Srtyle Start ===== */
+.banner {
+  padding: 177px 35px;
+  background-image: url("../images/banner_img.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+.banner-subtitle {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.banner-title {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 900;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 95px;
+}
+/* ===== Banner Srtyle End ===== */
+
+/* ===== Off Section Style Start ===== */
+.off_section {
+  margin: 120px 0;
+}
+.off_info {
+  text-align: center;
+}
+.off_title {
+  color: #ff0000;
+  font-size: 88px;
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.off_text {
+  margin-top: 48px;
+  margin-bottom: 16px;
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: 500;
+}
+.off_subTitle {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+/* ===== Off Section Style End ===== */

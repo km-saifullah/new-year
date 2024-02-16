@@ -290,3 +290,60 @@ ol {
   cursor: pointer;
 }
 /* ===== Newsletter style end ===== */
+
+/* ==== Footer style start ===== */
+.footer {
+  background-color: #070211;
+  padding: 120px 0;
+}
+.footer_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.footer_info p {
+  width: 375px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.footer_info ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+}
+.footer_info ul li {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.footer_info ul li a {
+  color: #fff;
+}
+i {
+  margin-right: 10px;
+}
+.social_link {
+  text-align: center;
+  padding: 48px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding-top: 50px;
+  font-size: 24px;
+  font-weight: 500;
+}
+/* ==== Footer style end ===== */

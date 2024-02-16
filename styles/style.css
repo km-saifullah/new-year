@@ -168,5 +168,39 @@ ol {
 .coming_details p {
   padding: 16px 0 43px 0;
 }
-
 /* ====== Coming Section Style End ====== */
+
+/* ====== Sale Section Style Start ====== */
+.sale {
+  margin-bottom: 120px;
+}
+.sale_subheading {
+  color: #070211;
+  text-transform: uppercase;
+}
+.holiday_info {
+  text-align: center;
+}
+.holiday_info h2 {
+  color: #ff0000;
+  font-size: 72px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding: 16px 0 28px 0;
+}
+.holiday_info span {
+  color: #070211;
+}
+.holiday_info p {
+  width: 820px;
+  margin: 0 auto;
+  line-height: 32px;
+}
+.discount_box {
+  margin-top: 64px;
+  width: 1320px;
+  height: 662px;
+  background-image: url("../images/discount.png");
+  background-position: left, bottom;
+}
+/* ====== Sale Section Style End ====== */

@@ -204,3 +204,37 @@ ol {
   background-position: left, bottom;
 }
 /* ====== Sale Section Style End ====== */
+
+/* ===== Portfolio Part Style Start ==== */
+.portfolio {
+  margin-bottom: 120px;
+}
+.portfolio_info {
+  margin-bottom: 48px;
+}
+.portfolio_info h3 {
+  margin-bottom: 22px;
+}
+.portfolio_info p {
+  width: 896px;
+  text-transform: capitalize;
+}
+.portfolio_item {
+  width: 424px;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 16px;
+}
+.portfolio_item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.portfolio_images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+/* ===== Portfolio Part Style End ==== */
